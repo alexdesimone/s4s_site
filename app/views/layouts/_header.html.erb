@@ -1,0 +1,17 @@
+<header class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to image_tag("S4S-Logo-Large.png", alt: "Sales4Startups", id: "s4s-logo" ), root_path %>
+	  <nav>
+        <ul class="nav pull-right">
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "Our Events", events_path %></li>
+          <li><%= link_to "Our Services", services_path %></li>
+		  <li><%= link_to "Our Apps", apps_path %></li>
+		  <li><%= link_to "Blog", blog_path %></li>
+		  <li><%= link_to "Contact Us", contact_path %></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

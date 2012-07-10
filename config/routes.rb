@@ -7,6 +7,7 @@ Website::Application.routes.draw do
   match '/apps', to: 'static_pages#apps'
   match '/blog', to: 'static_pages#blog'
   match '/contact', to: 'static_pages#contact'
+  match '/about', to: 'static_pages#about'
   
 
   # The priority is based upon order of creation:
