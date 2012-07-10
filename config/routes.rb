@@ -1,4 +1,14 @@
 Website::Application.routes.draw do
+  root to: 'static_pages#home'
+  
+  match '/home', to: 'static_pages#home'
+  match '/events', to: 'static_pages#events'
+  match '/services', to: 'static_pages#services'
+  match '/apps', to: 'static_pages#apps'
+  match '/blog', to: 'static_pages#blog'
+  match '/contact', to: 'static_pages#contact'
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
