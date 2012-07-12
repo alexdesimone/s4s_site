@@ -6,7 +6,6 @@ gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
-
 gem 'pg'
 
 group :development, :test do
@@ -25,6 +24,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem "jquery-scrollto-rails"
 
 group :test do
   gem 'capybara', '1.1.2'

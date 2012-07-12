@@ -17,7 +17,8 @@ html {
 }
 
 body {
-	padding-top: 60px;
+	padding-top: 50px;
+	background:url(bg-gradient.png) repeat-x; 
 }
 
 section {
@@ -49,14 +50,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 4em;
 	letter-spacing: -2px;
+	margin-top: 40px;
 	margin-bottom: 30px;
 	text-align: center;
+	position:relative;
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 1.9em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
@@ -175,4 +178,3 @@ input, textarea, select, .uneditable-input {
   @extend .control-group;
   @extend .error;
 }
-
