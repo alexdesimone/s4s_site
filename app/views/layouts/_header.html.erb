@@ -1,4 +1,4 @@
-<header class="navbar navbar-fixed-top">
+<!-- <header class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
       <%= link_to image_tag("S4S-Logo-Large.png", alt: "Sales4Startups", id: "s4s-logo" ), root_path %>
@@ -14,4 +14,24 @@
       </nav>
     </div>
   </div>
+</header> -->
+<header class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to image_tag("S4S-Logo-Large.png", alt: "Sales4Startups", id: "s4s-logo" ), root_path %>
+	  <nav>
+        <ul class="nav pull-right">
+		  <li><%= link_to "Home", root_path %></li>
+		  <li><a title="$.scrollTo( '#our-events-scroll', 800, {easing:'elasout'} );" href="#our-events-scroll">Our Events</a></li>
+		 <li><a title="$.scrollTo( '#our-services-scroll', 800, {easing:'elasout'} );" href="#our-services-scroll">Our Services</a></li>
+		 <li><a title="$.scrollTo( '#our-apps-scroll', 800, {easing:'elasout'} );" href="#our-apps-scroll">Our Apps</a></li>
+		 <li><a title="$.scrollTo( '#blog-scroll', 800, {easing:'elasout'} );" href="#blog-scroll">Community</a></li>
+		 <li><a title="$.scrollTo( '#startup-jobs-scroll', 800, {easing:'elasout'} );" href="#startup-jobs-scroll">Startup Jobs</a></li>
+		 <li><a title="$.scrollTo( '#about-us-scroll', 800, {easing:'elasout'} );" href="#about-us-scroll">About Us</a></li>
+		 <li><a title="$.scrollTo( '#contact-us-scroll', 800, {easing:'elasout'} );" href="#contact-us-scroll">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
+
